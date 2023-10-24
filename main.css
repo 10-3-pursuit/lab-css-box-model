@@ -61,7 +61,6 @@ footer span {
     position: absolute;
     left: 43%;
     top: 10%;
-    margin-right: 2000px;
 }
 
 .click-bait article {
@@ -124,6 +123,7 @@ footer span {
 }
 
 .click-bait {
+    border: 1px solid blue;
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 10%;
 }
