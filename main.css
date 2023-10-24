@@ -1,3 +1,7 @@
+* {
+    border: 1px solid gold; 
+ }
+
 p {
     font-family: sans-serif;
 }
@@ -16,7 +20,11 @@ ul {
     list-style: none;
 }
 
-p.weather {
+footer span {
+    font-weight: 700;
+}
+
+.weather p {
     font-size: 40px;
 }
 
@@ -26,8 +34,8 @@ p.weather {
 
 .weather {
     width: 300px;
-    border: 2px gray solid;
-}
+    border: 2px gray solid; 
+} 
 
 .breaking-news {
     padding: 0px 30px 0px 30px; 
@@ -42,7 +50,7 @@ p.weather {
     width: 250px;
     margin: 16px;
     padding: 16px;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 .below-the-fold article{
