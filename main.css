@@ -35,7 +35,6 @@ p {
 
 .above-the-fold article {
     display: inline-block;
-    border: 1px solid blue;
 }
 
 section div {
@@ -49,6 +48,7 @@ section div {
 
 .breaking-news {
     padding: 0px 30px;
+    width: 500px;
     /* border: 1px solid red; */
 }
 
@@ -80,4 +80,18 @@ section div {
 
 .below-the-fold div {
     width: 500px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    margin: auto;
+    padding: 0px 80px;
+}
+
+footer li {
+    padding: 5px;
 }
