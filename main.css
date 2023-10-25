@@ -1,0 +1,69 @@
+p {
+    font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: serif;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+ul {
+    list-style: none;
+    /* added more attributes not in the directions*/
+    line-height: 20px;
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+}
+footer span {
+    font-weight: 700;
+}
+.weather p {
+    font-size: 40px;
+}
+.above-the-fold article {
+    display: inline-block;
+}
+.weather {
+    width: 300px;
+    border: 2px gray solid;
+    /* added more attributes not in the directions*/
+    /* must put the display: inline-block inside multiple tags so it can work */
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+}
+.breaking-news {
+    padding: 0px 30px 0px 30px;
+    /* 12, 3, 6, 9 clockwise*/
+    display: inline-block;
+    width: 700px;
+}
+.breaking-news img {
+    width: 200px;
+}
+.clickbait article {
+    display: inline-block;
+    /* also needs the inline block thing */
+    margin: 16px auto;
+    padding: 16px 16px;
+    box-sizing: border-box;
+}
+.below-the-fold {
+    display: inline-block;
+}
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px auto;
+    padding: 16px 16px;
+    width: 200px;
+}
+.below-the-fold div {
+    width: 500px;
+}
