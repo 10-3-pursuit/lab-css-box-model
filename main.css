@@ -1,9 +1,13 @@
 p {
     font-family: sans-serif;
 }
-head {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: serif;
-    align-items: center;
+    text-align: center;
 }
 a {
     text-decoration: none;
