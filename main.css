@@ -90,8 +90,11 @@ footer span {
  }
 .below-the-fold div {
     width: 400px;
-}
- .matrix {
     display: inline-block;
     margin: 30px auto;
- }
+
+}
+ /* .matrix {
+    display: inline-block;
+    margin: 30px auto;
+ } */
