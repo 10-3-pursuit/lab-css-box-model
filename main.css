@@ -105,21 +105,21 @@ div > p {
 }
 
 .above-the-fold {
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    display: inline-block;
 }
 
 .weather {
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 1400px;
-    height: 240px;
+    margin: 0%;
+    box-sizing: border-box;
 }
 
 .img-grid {
-    margin-left: 30%;
+    margin-left: 35%;
+}
+
+.breaking-news {
+    box-sizing: border box;
+    width: 632px;
 }
 
 .breaking {
