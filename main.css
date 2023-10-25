@@ -1,0 +1,29 @@
+head {
+    font-style: serif;
+}
+
+.p-tag {
+   font-style: sans-serif;
+};
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: serif;
+    text-align: center;
+};
+
+footer span {
+    font-weight: 700;
+}
+
+
+
+
+
+
+* {
+    border: 1px solid gold;
+ } 
