@@ -2,7 +2,11 @@ p {
      font-family: sans-serif;
  }
  
- h1, h2, h3, h4, h5 {
+ h1, 
+ h2, 
+ h3, 
+ h4, 
+ h5 {
      font-family: serif;
      text-align: center;
  }
@@ -33,9 +37,12 @@ p {
      height: auto;
      border: 2px solid gray;
  }
+
+ .breaking-news {
+    padding: 0px 30px;
+ }
  
  .breaking-news img {
-     padding: 0px 30px;
      width: 200px;
      height: auto;
  }
