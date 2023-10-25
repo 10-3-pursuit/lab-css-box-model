@@ -11,6 +11,11 @@ a {
 }
 ul {
     list-style: none;
+    /* added more attributes not in the directions - directions misleading */
+    line-height: 20px;
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
 }
 footer span {
     font-weight: 700;
@@ -24,15 +29,24 @@ footer span {
 .weather {
     width: 300px;
     border: 2px gray solid;
+    /* added more attributes not in the directions - directions misleading */
+    /* must put the display: inline-block inside multiple tags so it can work */
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
 }
 .breaking-news {
-    padding: 0px 30px 0px 30px
+    padding: 0px 30px 0px 30px;
     /* 12, 3, 6, 9 clockwise*/
+    display: inline-block;
+    width: 700px;
 }
 .breaking-news img {
     width: 200px;
 }
 .clickbait article {
+    display: inline-block;
+    /* also needs the inline block thing */
     margin: 16px auto;
     padding: 16px 16px;
     box-sizing: border-box;
